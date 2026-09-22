@@ -6,7 +6,7 @@ title: Dynamic Dark Theme — Privacy Policy
 
 [日本語版はこちら](privacy-ja.md)
 
-Last updated: 2026-09-22
+Last updated: 2026-09-22 (website content disclosure clarified)
 
 Dynamic Dark Theme **does not send any data to external servers**. There is no mechanism that sends browsing content, settings, or statistics to the developer or to third parties. There is no telemetry, no analytics, no crash reporting, no account linking, and no remote code.
 
@@ -17,7 +17,7 @@ Dynamic Dark Theme **does not send any data to external servers**. There is no m
 | Settings | Palette, surface style, image handling (including SVG logos), apply mode, blocklist / allowlist, and sites where you turned off individual correction mechanisms |
 | Sites visited | Host names where the extension was applied (or decided not to apply), with per-site on/off state. **This counts as "web browsing activity".** It is stored only on your device and never leaves it. You can erase it from the popup with "Forget visited sites" (sites you configured manually are kept) |
 | Repair rules | Rules you created with the "magic wand" (host name, CSS selector, color declarations) |
-| Stylesheet cache | Copies of external CSS loaded by pages (up to 4 MB) |
+| Stylesheet cache | Copies of external CSS loaded by pages (up to 4 MB). Together with the image and SVG analysis below, this counts as "website content" in the Chrome Web Store disclosure. It stays on your device |
 | Internal error log | Registration failures and similar (up to 30 entries) |
 
 All of this is deleted when you remove the extension.
